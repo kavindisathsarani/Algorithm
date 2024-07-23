@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="834259a2-2a14-40a2-92bd-e3de70fb56d9" name="Changes" comment="comment">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/BinaryAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/Linear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/modifiedLinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/selectionSortAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/squareZeros.java" afterDir="false" />
+    <list default="true" id="834259a2-2a14-40a2-92bd-e3de70fb56d9" name="Changes" comment="algorithm update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/searchingIndexAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/LaunchWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/BinaryAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/CustomerFormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/LoginFormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/java.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/customer_form.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/login_form.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
     "Application.Linear.executor": "Run",
     "Application.java.executor": "Run",
     "Application.modifiedLinearSearch.executor": "Run",
+    "Application.searchingIndexAlgorithm.executor": "Run",
     "Application.selectionSortAlgorithm.executor": "Run",
     "Application.squareZeros.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -70,20 +73,7 @@
       <recent name="lk.ijse.fx.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.modifiedLinearSearch">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.BinarySearch" />
-      <module name="test-fx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lk.ijse.fx.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.searchingIndexAlgorithm">
     <configuration name="Linear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.Linear" />
       <module name="test-fx" />
@@ -99,6 +89,19 @@
     </configuration>
     <configuration name="modifiedLinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.modifiedLinearSearch" />
+      <module name="test-fx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.fx.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="searchingIndexAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.searchingIndexAlgorithm" />
       <module name="test-fx" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.searchingIndexAlgorithm" />
         <item itemvalue="Application.modifiedLinearSearch" />
         <item itemvalue="Application.Linear" />
         <item itemvalue="Application.selectionSortAlgorithm" />
         <item itemvalue="Application.squareZeros" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +178,7 @@
       <workItem from="1718681013340" duration="306000" />
       <workItem from="1721105030806" duration="2947000" />
       <workItem from="1721117010758" duration="3856000" />
-      <workItem from="1721705287730" duration="5376000" />
+      <workItem from="1721705287730" duration="8217000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -193,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718539311228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="algorithm update">
+      <option name="closed" value="true" />
+      <created>1721710949034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721710949034</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,22 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/lk/ijse/fx/LaunchWrapper.java</url>
-          <line>3</line>
-          <properties class="lk.ijse.fx.LaunchWrapper" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="algorithm update" />
+    <option name="LAST_COMMIT_MESSAGE" value="algorithm update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

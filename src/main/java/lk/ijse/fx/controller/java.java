@@ -15,6 +15,7 @@ public class java {
 
             System.out.println(result);
         }*/
+
     final int Y = 4;
     String result = switch (Y) {
         case 1 -> "Case 1";
