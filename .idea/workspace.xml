@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="834259a2-2a14-40a2-92bd-e3de70fb56d9" name="Changes" comment="algorithm update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/searchingIndexAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="834259a2-2a14-40a2-92bd-e3de70fb56d9" name="Changes" comment="removed unwanted classes">
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/LaunchWrapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/Launcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/BinaryAlgorithm.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/CustomerFormController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/LoginFormController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/java.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/customer_form.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/login_form.fxml" beforeDir="false" />
     </list>
@@ -178,7 +174,7 @@
       <workItem from="1718681013340" duration="306000" />
       <workItem from="1721105030806" duration="2947000" />
       <workItem from="1721117010758" duration="3856000" />
-      <workItem from="1721705287730" duration="8217000" />
+      <workItem from="1721705287730" duration="8509000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -204,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721710949034</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="removed unwanted classes">
+      <option name="closed" value="true" />
+      <created>1721714216720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721714216720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +218,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="comment" />
     <MESSAGE value="algorithm update" />
-    <option name="LAST_COMMIT_MESSAGE" value="algorithm update" />
+    <MESSAGE value="removed unwanted classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unwanted classes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
