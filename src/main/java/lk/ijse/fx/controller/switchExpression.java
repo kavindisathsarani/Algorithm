@@ -1,6 +1,6 @@
 package lk.ijse.fx.controller;
 
-public class java {
+public class switchExpression {
         public static void main(String[] args) {
          /*   final int X = 2;
 

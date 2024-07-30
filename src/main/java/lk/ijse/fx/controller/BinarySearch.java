@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] nums={1,2,3,4,5,6};
+        int[] nums={1,2,3,4,5,5};
+        //to use this algorithm the array must be a sorted one. for unsorted arrays this algorithm won't work
+
         System.out.print("input number = ");
         int x= new Scanner(System.in).nextInt();
         System.out.println("index = "+binarySearch(nums,x)); //binarySearch(nums,x);

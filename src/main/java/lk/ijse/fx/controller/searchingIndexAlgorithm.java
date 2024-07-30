@@ -1,16 +1,26 @@
 package lk.ijse.fx.controller;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class searchingIndexAlgorithm {
     public static void main(String[] args) {
-        int[] nums={0,2,3,4,5,6};  /*null;*/
+        int[] nums={1,2,9,4,5,6};  /*null;*/
 
-        if(nums!=null) {
+        //to use this algorithm the array must be a sorted one. for unsorted arrays this algorithm won't work
+        //so for this that unsorted array should be converted into a sorted one.
+        //for that binarySearch algorithm and selection sort algorithm should be used
+
+        if(nums !=null) {
+            System.out.println(Arrays.toString(selectionSort(nums)));
+        }
+        int[] ar=selectionSort(nums);
+
+        if(ar!=null) {
             System.out.print("input number = ");
             int x = new Scanner(System.in).nextInt();
-            if (binarySearch(nums, x)!=-1) {
-                System.out.println("index = " + binarySearch(nums, x)); //binarySearch(nums,x);
+            if (binarySearch(ar, x)!=-1) {
+                System.out.println("index = " + binarySearch(ar, x)); //binarySearch(nums,x);
             }else{
                 System.out.println("index not found");
             }
@@ -34,5 +44,29 @@ public class searchingIndexAlgorithm {
             }
         }
         return -1; // Not found
+    }
+
+    private static int[] selectionSort(int[] ar) {
+        if (ar != null) {
+            for (int i = 0; i < ar.length - 1; i++) {
+                int min = i;
+
+                for (int j = i + 1; j < ar.length; j++) {
+                    if (ar[min] > ar[j]) {
+                        min = j;
+                    }
+                }
+
+                if (min != i) {
+                    int temp = ar[i];
+                    ar[i] = ar[min];
+                    ar[min] = temp;
+
+                }
+
+            }
+
+        }
+        return ar;
     }
 }

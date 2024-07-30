@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="834259a2-2a14-40a2-92bd-e3de70fb56d9" name="Changes" comment="removed unwanted classes">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/LaunchWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/Launcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/CustomerFormController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/LoginFormController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/customer_form.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/login_form.fxml" beforeDir="false" />
+    <list default="true" id="834259a2-2a14-40a2-92bd-e3de70fb56d9" name="Changes" comment="further removed unwanted classes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/ReverseArrayWithoutUsingTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/StackReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/insertionSortAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/printNumbersToHundredWithoutUsingNumericValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/switchExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/searchingIndexAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/fx/controller/searchingIndexAlgorithm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +46,17 @@
     "Application.BinarySearch.executor": "Run",
     "Application.LaunchWrapper.executor": "Run",
     "Application.Linear.executor": "Run",
+    "Application.ReverseArrayWithoutUsingTemp.executor": "Run",
+    "Application.StackReverse.executor": "Run",
+    "Application.insertionSortAlgorithm.executor": "Run",
     "Application.java.executor": "Run",
     "Application.modifiedLinearSearch.executor": "Run",
+    "Application.printNumbersToHundredWithoutUsingNumericValue.executor": "Run",
+    "Application.reverseStringUsingStack.executor": "Run",
     "Application.searchingIndexAlgorithm.executor": "Run",
     "Application.selectionSortAlgorithm.executor": "Run",
     "Application.squareZeros.executor": "Run",
+    "Application.stack.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,9 +79,9 @@
       <recent name="lk.ijse.fx.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.searchingIndexAlgorithm">
-    <configuration name="Linear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.Linear" />
+  <component name="RunManager" selected="Application.ReverseArrayWithoutUsingTemp">
+    <configuration name="ReverseArrayWithoutUsingTemp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.ReverseArrayWithoutUsingTemp" />
       <module name="test-fx" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="modifiedLinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.modifiedLinearSearch" />
+    <configuration name="StackReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.StackReverse" />
       <module name="test-fx" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchingIndexAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.searchingIndexAlgorithm" />
+    <configuration name="insertionSortAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.insertionSortAlgorithm" />
       <module name="test-fx" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selectionSortAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.selectionSortAlgorithm" />
+    <configuration name="printNumbersToHundredWithoutUsingNumericValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.printNumbersToHundredWithoutUsingNumericValue" />
       <module name="test-fx" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="squareZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.squareZeros" />
+    <configuration name="stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.fx.controller.stack" />
       <module name="test-fx" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.searchingIndexAlgorithm" />
-        <item itemvalue="Application.modifiedLinearSearch" />
-        <item itemvalue="Application.Linear" />
-        <item itemvalue="Application.selectionSortAlgorithm" />
-        <item itemvalue="Application.squareZeros" />
+        <item itemvalue="Application.ReverseArrayWithoutUsingTemp" />
+        <item itemvalue="Application.printNumbersToHundredWithoutUsingNumericValue" />
+        <item itemvalue="Application.StackReverse" />
+        <item itemvalue="Application.stack" />
+        <item itemvalue="Application.insertionSortAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +184,9 @@
       <workItem from="1718681013340" duration="306000" />
       <workItem from="1721105030806" duration="2947000" />
       <workItem from="1721117010758" duration="3856000" />
-      <workItem from="1721705287730" duration="8509000" />
+      <workItem from="1721705287730" duration="9624000" />
+      <workItem from="1721718344452" duration="9317000" />
+      <workItem from="1722310495692" duration="4580000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -208,18 +220,38 @@
       <option name="project" value="LOCAL" />
       <updated>1721714216720</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="further removed unwanted classes">
+      <option name="closed" value="true" />
+      <created>1721714417603</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721714417603</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="comment" />
     <MESSAGE value="algorithm update" />
     <MESSAGE value="removed unwanted classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed unwanted classes" />
+    <MESSAGE value="further removed unwanted classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="further removed unwanted classes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
